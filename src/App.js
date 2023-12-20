@@ -40,7 +40,7 @@ function App() {
   return(
     <div className="App">
       <p>{state.clock} seconds</p>
-      <button onClick={() => dispatch({type:"PLAY"})}>PLAY</button>
+      <button onClick={() => dispatch({type:"START"})}>START</button>
       <button onClick={() => dispatch({type:"PAUSE"})}>PAUSE</button>
       <button onClick={() => dispatch({type:"RESET"})}>RESET</button>
     </div>
